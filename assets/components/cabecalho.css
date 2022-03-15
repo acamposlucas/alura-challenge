@@ -1,7 +1,7 @@
 .cabecalho {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   padding: 1rem;
 }
 
@@ -11,6 +11,8 @@
 }
 
 .cabecalho__busca--lupa {
+  background-color: transparent;
+  border: none;
   background-image: url(../img/lupa.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,4 +20,41 @@
 
   height: 24px;
   width: 24px;
+}
+
+.cabecalho input {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho__botao {
+    order: 1;
+  }
+
+  .cabecalho input {
+    box-sizing: border-box;
+    background-color: var(--cinza-input);
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0.75rem 3rem 0.75rem 1rem;
+    width: 270px;
+  }
+
+  .cabecalho__busca--lupa {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho__logo {
+    height: 50px;
+  }
+
+  .cabecalho__botao {
+    padding: 1rem 4.375rem;
+  }
 }

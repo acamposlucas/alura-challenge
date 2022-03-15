@@ -1,8 +1,18 @@
 .rodape {
   background-color: var(--azul-bg);
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+  padding-top: 2rem;
+}
+
+.rodape__logo {
+  grid-row: 1;
+  margin: 0 auto;
 }
 
 .rodape__conteudo {
+  grid-row: 2;
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -91,4 +101,52 @@
   color: var(--preto);
   text-align: center;
   padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(3, auto);
+    gap: 0.5rem;
+  }
+
+  .rodape__logo {
+    grid-row: 1;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .rodape__conteudo {
+    grid-row: 2/3;
+    text-align: left;
+  }
+
+  .rodape__contato {
+    grid-column: 2;
+    grid-row: span 2;
+  }
+
+  .rodape__mensagem {
+    display: block;
+    height: 82px;
+  }
+
+  .licenca {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+    grid-template-columns: 3;
+  }
+
+  .rodape__logo {
+    grid-row: 1;
+  }
+
+  .rodape__ .licenca {
+    grid-column: span 3;
+  }
 }

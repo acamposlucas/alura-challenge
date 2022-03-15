@@ -1,9 +1,15 @@
 @import url(../components/cartao.css);
 
+.produtos__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
 .produtos__titulo {
   color: var(--preto);
   display: inline-block;
-  padding-bottom: 1rem;
 }
 
 .produtos__link {
@@ -30,4 +36,33 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 0.5rem;
+}
+
+.produto--mobile--hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .produtos__titulo {
+    font-size: 1.5rem;
+  }
+
+  .produtos__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .galeria {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .produto--mobile--hidden {
+    display: grid;
+  }
 }
