@@ -1,0 +1,33 @@
+.destaque {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 1rem;
+  height: 200px;
+
+  display: flex;
+}
+
+.destaque__conteudo {
+  align-self: flex-end;
+  padding-bottom: 1rem;
+}
+
+.destaque__titulo {
+  color: #fff;
+  font-size: 1.375rem;
+  padding-bottom: 0.5rem;
+}
+
+.destaque__subtitulo {
+  color: #fff;
+  font-size: 0.875rem;
+  padding-bottom: 1.5rem;
+}
+
+.destaque__botao {
+  box-sizing: border-box;
+  background-color: var(--azul);
+  padding: 0.875rem 1rem;
+  color: #fff;
+}

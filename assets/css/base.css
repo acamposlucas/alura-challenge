@@ -14,10 +14,6 @@ a {
   color: var(--azul);
 }
 
-a:visited {
-  color: var(--azul);
-}
-
 h1,
 h2,
 h3,
