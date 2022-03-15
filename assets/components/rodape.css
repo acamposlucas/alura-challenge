@@ -1,0 +1,96 @@
+.rodape {
+  background-color: var(--azul-bg);
+}
+
+.rodape__conteudo {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.rodape__logo {
+  height: 50px;
+  padding-bottom: 1rem;
+}
+
+.rodape__link {
+  color: var(--preto);
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.rodape__link:last-child {
+  padding-bottom: 0;
+}
+
+.rodape__contato {
+  color: var(--preto);
+  font-weight: 700;
+}
+
+.rodape__contato fieldset {
+  padding-bottom: 0.5rem;
+}
+
+.rodape__input--nome {
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+
+.rodape__input--nome span,
+.rodape__textarea span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--cinza-claro);
+  cursor: text;
+  padding-top: 0.5rem;
+  padding-left: 0.75rem;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.rodape__input--nome input {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px var(--cinza-shadow);
+  font-family: inherit;
+  height: 56px;
+  padding-top: 0.5rem;
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.rodape__textarea span {
+  padding-top: 0.75rem;
+  font-size: 1rem;
+}
+
+.rodape__mensagem {
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px var(--cinza-shadow);
+  font-family: inherit;
+  min-height: 56px;
+  width: 100%;
+  padding-left: 0.75rem;
+  padding-top: 2rem;
+}
+
+.rodape__botao {
+  background-color: var(--azul);
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.licenca {
+  background-color: #fff;
+  color: var(--preto);
+  text-align: center;
+  padding: 1rem;
+}

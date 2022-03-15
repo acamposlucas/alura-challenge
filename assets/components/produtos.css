@@ -1,0 +1,33 @@
+@import url(../components/_cartao.css);
+
+.produtos__titulo {
+  color: var(--preto);
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.produtos__link {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  float: right;
+}
+
+.produtos__link::after {
+  display: inline-block;
+  content: "";
+  background-image: url(../img/seta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10px;
+  margin-left: 0.5rem;
+
+  width: 10px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}

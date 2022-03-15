@@ -1,5 +1,8 @@
 :root {
   --azul: #2a7ae4;
+  --azul-bg: #eaf2fd;
+  --cinza-shadow: #c8c8c8;
+  --cinza-claro: #a2a2a2;
   --branco: #fff;
   --preto: #464646;
 }
@@ -26,4 +29,16 @@ p {
 
 h1 {
   font-weight: 700;
+}
+
+.container {
+  padding: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
 }
