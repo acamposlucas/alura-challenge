@@ -1,0 +1,33 @@
+:root {
+  --azul: #2a7ae4;
+  --branco: #fff;
+  --preto: #464646;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--azul);
+}
+
+a:visited {
+  color: var(--azul);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: normal;
+}
+
+h1 {
+  font-weight: 700;
+}

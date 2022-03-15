@@ -1,0 +1,14 @@
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.card__titulo {
+  color: var(--preto);
+}
+
+.card__preco {
+  color: var(--preto);
+  font-weight: 700;
+}
