@@ -17,6 +17,14 @@
   padding-bottom: 2rem;
 }
 
+.rodape__item {
+  padding-bottom: 1rem;
+}
+
+.rodape__item:last-child {
+  padding-bottom: 0;
+}
+
 .rodape__logo {
   height: 50px;
   padding-bottom: 1rem;
@@ -35,6 +43,7 @@
 .rodape__contato {
   color: var(--preto);
   font-weight: 700;
+  padding: 1rem;
 }
 
 .rodape__contato fieldset {
@@ -108,7 +117,6 @@
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: repeat(3, auto);
-    gap: 0.5rem;
   }
 
   .rodape__logo {
@@ -119,6 +127,7 @@
 
   .rodape__conteudo {
     grid-row: 2/3;
+    padding: 0 1rem 1rem 1rem;
     text-align: left;
   }
 
@@ -127,9 +136,17 @@
     grid-row: span 2;
   }
 
+  .rodape__input--nome input {
+    width: 90%;
+  }
   .rodape__mensagem {
     display: block;
     height: 82px;
+    width: 90%;
+  }
+
+  .rodape__textarea span {
+    display: block;
   }
 
   .licenca {
@@ -139,14 +156,28 @@
 
 @media screen and (min-width: 1024px) {
   .rodape {
-    grid-template-columns: 3;
+    grid-template-columns: repeat(3, auto);
   }
 
   .rodape__logo {
+    grid-column: 1;
     grid-row: 1;
   }
 
-  .rodape__ .licenca {
-    grid-column: span 3;
+  .rodape__conteudo {
+    grid-column: 2;
+    grid-row: span 2;
+    padding-top: 1rem;
+  }
+
+  .rodape__contato {
+    grid-column: 3;
+    grid-row: span 2;
+    padding-bottom: 1rem;
+  }
+
+  .licenca {
+    grid-row: 3;
+    grid-column: span 4;
   }
 }
