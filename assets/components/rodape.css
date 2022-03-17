@@ -156,7 +156,8 @@
 
 @media screen and (min-width: 1024px) {
   .rodape {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 25% 25% 50%;
+    padding: 1rem 9.375rem;
   }
 
   .rodape__logo {
