@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="assets/components/botao.css">
     <link rel="stylesheet" href="assets/components/cabecalho.css">
     <link rel="stylesheet" href="assets/components/destaque.css">
-    <link rel="stylesheet" href="assets/components/produtos.css">
+    <link rel="stylesheet" href="assets/components/secao_produtos.css">
     <link rel="stylesheet" href="assets/components/rodape.css">
+    <link rel="stylesheet" href="assets/components/produto.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,17 +70,58 @@
             </div>
         </section>
 
-        <footer class="rodape">
-            <div class="rodape__conteudo container">
-                <img src="assets/img/logo.svg" alt="logo da AluraGeek" class="rodape__logo">
-                <a href="#" class="rodape__link">Quem somos nós</a>
-                <a href="#" class="rodape__link">Política de privacidade</a>
-                <a href="#" class="rodape__link">Programa fidelidade</a>
-                <a href="#" class="rodape__link">Nossas lojas</a>
-                <a href="#" class="rodape__link">Quero ser franqueado</a>
-                <a href="#" class="rodape__link">Anuncie aqui</a>
+        <section class="produto">
+            <img src="assets/img/starwars01.png" alt="" class="produto__image">
+            <div class="produto__informacao">
+                <h1 class="produto__titulo">Produto XYZ</h1>
+                <span class="produto__preco">R$ 60,00</span>
+                <p class="produto__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
             </div>
-            <form action="" class="rodape__contato container">
+
+            <div class="produtos__similares">
+                <div class="galeria">
+                    <div class="card">
+                        <img src="assets/img/starwars01.png" alt="Caneca Star Wars" class="card__imagem">
+                        <p class="card__titulo">Produto XYZ</p>
+                        <span class="card__preco">R$ 60,00</span>
+                        <a href="#" class="card__link">Ver produto</a>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/starwars01.png" alt="Caneca Star Wars" class="card__imagem">
+                        <p class="card__titulo">Produto XYZ</p>
+                        <span class="card__preco">R$ 60,00</span>
+                        <a href="#" class="card__link">Ver produto</a>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/starwars01.png" alt="Caneca Star Wars" class="card__imagem">
+                        <p class="card__titulo">Produto XYZ</p>
+                        <span class="card__preco">R$ 60,00</span>
+                        <a href="#" class="card__link">Ver produto</a>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/starwars01.png" alt="Caneca Star Wars" class="card__imagem">
+                        <p class="card__titulo">Produto XYZ</p>
+                        <span class="card__preco">R$ 60,00</span>
+                        <a href="#" class="card__link">Ver produto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer>
+        <div class="rodape">
+            <img src="assets/img/logo.svg" alt="logo da AluraGeek" class="rodape__logo">
+            <ul class="rodape__conteudo">
+                <li class="rodape__item"><a href="#" class="rodape__link">Quem somos nós</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Política de privacidade</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Programa fidelidade</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Nossas lojas</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Quero ser franqueado</a></li>
+                <li class="rodape__item"><a href="#" class="rodape__link">Anuncie aqui</a></li>
+            </ul>
+
+            <form action="" class="rodape__contato">
                 <fieldset>Fale Conosco</fieldset>
                 <label for="nome" class="rodape__input--nome">
                     <span>Nome</span>
@@ -91,10 +133,11 @@
                 </label>
                 <button type="submit" class="botao rodape__botao">Enviar mensagem</button>
             </form>
-        <div class="licenca">
-            <p>Desenvolvido por <a href="https://github.com/acamposlucas">Lucas Almeida Campos</a><br>2022</p>
         </div>
-        </footer>
+    <div class="licenca">
+        <p>Desenvolvido por <a href="https://github.com/acamposlucas">Lucas Almeida Campos</a><br>2022</p>
+    </div>
+    </footer>
 
     </main>
 </body>

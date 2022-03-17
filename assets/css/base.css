@@ -8,6 +8,9 @@
   --cinza-input: #f5f5f5;
   --branco: #fff;
   --preto: #464646;
+
+  --fonte-titulo-24: 1.5rem;
+  --fonte-pequena-14: 0.75rem;
 }
 
 body {
