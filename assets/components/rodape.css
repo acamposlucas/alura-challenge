@@ -11,7 +11,7 @@
   margin: 0 auto;
 }
 
-.rodape__conteudo {
+.rodape__lista {
   grid-row: 2;
   text-align: center;
   padding-bottom: 2rem;
@@ -125,8 +125,11 @@
     padding-left: 1rem;
   }
 
-  .rodape__conteudo {
+  .rodape__nav {
     grid-row: 2/3;
+  }
+
+  .rodape__lista {
     padding: 0 1rem 1rem 1rem;
     text-align: left;
   }
@@ -165,7 +168,7 @@
     grid-row: 1;
   }
 
-  .rodape__conteudo {
+  .rodape__lista {
     grid-column: 2;
     grid-row: span 2;
     padding-top: 1rem;
