@@ -5,7 +5,11 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, auto);
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.gallery__allproducts {
+  background-color: var(--bg-clr-cinza);
 }
 
 @media screen and (min-width: 768px) {
@@ -18,5 +22,6 @@
 @media screen and (min-width: 1024px) {
   .gallery {
     grid-template-columns: repeat(6, auto);
+    padding: 1rem 8rem;
   }
 }

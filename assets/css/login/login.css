@@ -6,7 +6,7 @@
 @import url(./login__input.css);
 
 .login {
-  background-color: var(--bg-clr-login);
+  background-color: var(--bg-clr-cinza);
   padding: 2.5rem;
   text-align: center;
   font-family: "Raleway";
@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 768px) {
   .login {
-    height: 30vh;
+    height: 49vh;
     position: relative;
   }
 }

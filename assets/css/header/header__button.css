@@ -1,0 +1,36 @@
+.header__button {
+  box-sizing: border-box;
+  padding: 1rem 3rem;
+}
+
+.header__btn--search-svg {
+  background-color: transparent;
+  border: none;
+  background-image: url(../../img/lupa.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__button {
+    order: 1;
+  }
+
+  .header__btn--search-svg {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    margin-right: 0.5rem;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__button {
+    padding: 1rem 4.375rem;
+  }
+}

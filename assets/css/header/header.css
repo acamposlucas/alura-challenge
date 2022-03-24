@@ -1,0 +1,23 @@
+@import url(./header__button.css);
+@import url(./header__input.css);
+@import url(./header__label.css);
+@import url(./header__logo.css);
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 1rem 8rem;
+  }
+}

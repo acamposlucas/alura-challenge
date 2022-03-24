@@ -1,0 +1,10 @@
+.gallery__title {
+  color: var(--preto);
+  font-family: inherit;
+  font-size: var(--fonte-titulo-24);
+  font-weight: 600;
+}
+
+.gallery__title--allproducts {
+  font-size: 2rem;
+}

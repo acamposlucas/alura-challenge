@@ -1,4 +1,7 @@
+@import url(./header/header.css);
+@import url(../components/botao.css);
 @import url(../css/gallery/_gallery.css);
+@import url(./footer/footer.css);
 
 :root {
   --azul-20: #d4e4fa;
@@ -14,7 +17,7 @@
   --fonte-titulo-24: 1.5rem;
   --fonte-pequena-14: 0.75rem;
 
-  --bg-clr-login: #f5f5f5;
+  --bg-clr-cinza: #f5f5f5;
 }
 
 body {

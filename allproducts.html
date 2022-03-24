@@ -5,13 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/base.css" />
-    <link rel="stylesheet" href="assets/components/botao.css" />
-    <link rel="stylesheet" href="assets/css/header/header.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +12,13 @@
       rel="stylesheet"
     />
 
-    <title>AluraGeek | Home</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/gallery/_gallery.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer.css" />
+    <link rel="stylesheet" href="assets/css/header/header.css" />
+
+    <title>Todos os produtos | AluraGeek</title>
   </head>
   <body>
     <header class="header">
@@ -42,140 +41,124 @@
         <button class="header__btn--search-svg"></button>
       </label>
     </header>
-    <main style="background-color: #f5f5f5">
-      <section class="banner">
-        <div class="banner__content">
-          <h1 class="banner__title">Dezembro Promocional</h1>
-          <p class="banner__subtitle">
-            Produtos selecionados com 33% de desconto
-          </p>
-          <a href="" class="botao destaque__botao">Ver Consoles</a>
-        </div>
-      </section>
-      <section class="gallery">
-        <header class="gallery__header">
-          <span class="gallery__title">Star Wars</span>
-          <a href="allproducts.html" class="gallery__link">Ver tudo</a>
+
+    <main>
+      <section class="gallery gallery__allproducts">
+        <header class="gallery__header gallery__header--allproducts">
+          <span class="gallery__title gallery__title--allproducts"
+            >Todos os produtos</span
+          >
+          <button class="gallery__btn botao botao--bold">
+            Adicionar produto
+          </button>
         </header>
         <div class="card">
           <img src="./assets/img/starwars01.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="produto01.html" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/starwars02.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/starwars03.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/starwars04.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/starwars05.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/starwars06.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-      </section>
-      <section class="gallery">
-        <header class="gallery__header">
-          <span class="gallery__title">Consoles</span>
-          <a href="allproducts.html" class="gallery__link">Ver tudo</a>
-        </header>
         <div class="card">
           <img src="./assets/img/console01.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/console02.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/console03.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/console04.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/console05.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/console06.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-      </section>
-      <section class="gallery">
-        <header class="gallery__header">
-          <span class="gallery__title">Star Wars</span>
-          <a href="allproducts.html" class="gallery__link">Ver tudo</a>
-        </header>
         <div class="card">
           <img src="./assets/img/diversos01.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/diversos02.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/diversos03.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
         <div class="card">
           <img src="./assets/img/diversos04.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/diversos05.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
-        <div class="card card--hidden">
+        <div class="card">
           <img src="./assets/img/diversos06.png" alt="" class="card__image" />
           <span class="card__title">Produto XYZ</span>
           <span class="card__price">R$ 60,00</span>
-          <a href="#" class="card__link">Ver produto</a>
+          <span class="card__id">#111111</span>
         </div>
       </section>
     </main>

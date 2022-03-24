@@ -8,9 +8,21 @@
   grid-column: span 2;
 }
 
+.gallery__header--allproducts {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   .gallery__header {
     grid-column: span 4;
+  }
+
+  .gallery__header--allproducts {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
