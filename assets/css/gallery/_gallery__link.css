@@ -3,3 +3,14 @@
   font-size: 0.875rem;
   font-weight: 700;
 }
+
+.gallery__link::after {
+  display: inline-block;
+  content: "";
+  background-image: url(../../img/seta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10px;
+  margin-left: 0.5rem;
+  width: 10px;
+}

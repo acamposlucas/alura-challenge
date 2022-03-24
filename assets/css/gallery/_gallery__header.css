@@ -1,6 +1,21 @@
+@import url(./_gallery__title.css);
+@import url(./_gallery__link.css);
+
 .gallery__header {
   align-items: center;
   display: flex;
   justify-content: space-between;
   grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery__header {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery__header {
+    grid-column: span 6;
+  }
 }

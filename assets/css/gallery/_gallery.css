@@ -1,12 +1,10 @@
-@import url(./_gallery__title.css);
-@import url(./_gallery__link.css);
+@import url(./_gallery__header.css);
 @import url(../card/card.css);
 
 .gallery {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
   padding: 1rem;
 }
 
