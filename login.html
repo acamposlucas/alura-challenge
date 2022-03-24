@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/login/login.css" />
+
+    <title>Login | AluraGeek</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        src="assets/img/logo.svg"
+        alt="Logo da AluraGeek"
+        class="cabecalho__logo"
+      />
+      <a href="#" class="botao--branco cabecalho__botao">Login</a>
+      <label for="pesquisa">
+        <input
+          type="search"
+          name="pesquisa"
+          id="pesquisa"
+          placeholder="O que você deseja encontrar?"
+        />
+        <button class="cabecalho__busca--lupa"></button>
+      </label>
+    </header>
+
+    <main>
+      <section class="login">
+        <form action="#" class="login__form">
+          <fieldset class="login__fieldset">
+            <legend class="login__legend">Iniciar Sessão</legend>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Escreva seu email"
+              class="login__input login__input--email"
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Escreva sua senha"
+              class="login__input login__input--pw"
+            />
+            <button type="submit" class="botao login__botao">Entrar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="rodape">
+        <img
+          src="assets/img/logo.svg"
+          alt="logo da AluraGeek"
+          class="rodape__logo"
+        />
+        <nav class="rodape__nav">
+          <ul class="rodape__lista">
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Quem somos nós</a>
+            </li>
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Política de privacidade</a>
+            </li>
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Programa fidelidade</a>
+            </li>
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Nossas lojas</a>
+            </li>
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Quero ser franqueado</a>
+            </li>
+            <li class="rodape__item">
+              <a href="#" class="rodape__link">Anuncie aqui</a>
+            </li>
+          </ul>
+        </nav>
+        <form action="" class="rodape__contato">
+          <fieldset>Fale Conosco</fieldset>
+          <label for="nome" class="rodape__input--nome">
+            <span>Nome</span>
+            <input type="text" name="" id="" />
+          </label>
+          <label for="mensagem" class="rodape__textarea">
+            <span>Escreva sua mensagem</span>
+            <textarea
+              maxlength="200"
+              name="mensagem"
+              id=""
+              cols="30"
+              rows="5"
+              class="rodape__mensagem"
+            ></textarea>
+          </label>
+          <button type="submit" class="botao rodape__botao">
+            Enviar mensagem
+          </button>
+        </form>
+      </div>
+      <div class="licenca">
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/acamposlucas">Lucas Almeida Campos</a
+          ><br />2022
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

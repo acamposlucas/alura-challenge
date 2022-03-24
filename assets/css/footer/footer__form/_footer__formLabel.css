@@ -1,0 +1,8 @@
+.footer__formLabel {
+  color: var(--cinza-claro);
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  left: 2rem;
+  position: absolute;
+  z-index: 2;
+}

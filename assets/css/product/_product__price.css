@@ -1,0 +1,6 @@
+.product__price {
+  display: block;
+  box-sizing: border-box;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}

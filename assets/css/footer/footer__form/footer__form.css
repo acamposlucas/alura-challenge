@@ -1,0 +1,21 @@
+@import url(./_footer__formLegend.css);
+@import url(./_footer__formInput.css);
+@import url(./_footer__formLabel.css);
+@import url(./_footer__textarea.css);
+@import url(./_footer__formLabelSpan.css);
+
+label {
+  display: block;
+}
+
+.footer__form {
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__form {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    padding-top: 1rem;
+  }
+}

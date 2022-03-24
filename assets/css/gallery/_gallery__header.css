@@ -1,0 +1,6 @@
+.gallery__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  grid-column: span 2;
+}

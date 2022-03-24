@@ -1,0 +1,7 @@
+@import url(./_footer__list.css);
+@import url(./_footer__item.css);
+@import url(./_footer__link.css);
+
+.footer__nav {
+  margin: 1rem 0;
+}

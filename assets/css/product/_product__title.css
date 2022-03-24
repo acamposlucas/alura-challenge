@@ -1,0 +1,6 @@
+.product__title {
+  color: var(--preto);
+  font-size: var(--fonte-titulo-24);
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,5 @@
+.product__description {
+  color: var(--preto);
+  font-size: 0.875rem;
+  line-height: normal;
+}

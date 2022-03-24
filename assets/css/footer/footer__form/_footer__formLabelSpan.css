@@ -1,0 +1,9 @@
+.footer__formLabelSpan {
+  position: absolute;
+  z-index: 1;
+  cursor: text;
+  pointer-events: none;
+  color: #999;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}

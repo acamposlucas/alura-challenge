@@ -1,0 +1,10 @@
+@import url(./footer__topContent.css);
+@import url(./footer__image.css);
+@import url(./footer__nav/footer__nav.css);
+@import url(./footer__form/footer__form.css);
+@import url(./footer__license.css);
+
+.footer {
+  padding-top: 1rem;
+  text-align: center;
+}

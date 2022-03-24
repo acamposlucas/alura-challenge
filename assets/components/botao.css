@@ -1,5 +1,6 @@
 .botao {
   background-color: var(--azul);
+  border: none;
   color: #fff;
   padding: 1rem;
 }

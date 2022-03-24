@@ -1,0 +1,7 @@
+.login__botao {
+  display: block;
+  margin: 1rem auto 0 auto;
+  padding: 0.75rem 2.5rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+}

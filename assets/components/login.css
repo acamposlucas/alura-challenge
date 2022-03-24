@@ -1,0 +1,7 @@
+@import url(./cabecalho.css);
+@import url(./rodape.css);
+
+.login {
+  background-color: var(--bg-clr-login);
+  padding: 2.5rem;
+}

@@ -1,0 +1,20 @@
+@import url(../../components/cabecalho.css);
+@import url(../../components/rodape.css);
+@import url(./login__legend.css);
+@import url(./login__button.css);
+@import url(./login__form.css);
+@import url(./login__input.css);
+
+.login {
+  background-color: var(--bg-clr-login);
+  padding: 2.5rem;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+@media screen and (min-width: 768px) {
+  .login {
+    height: 30vh;
+    position: relative;
+  }
+}
