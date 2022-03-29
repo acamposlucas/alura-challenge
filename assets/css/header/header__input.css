@@ -14,3 +14,9 @@
     width: 270px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .header__input {
+    width: 400px;
+  }
+}

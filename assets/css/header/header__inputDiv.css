@@ -1,0 +1,27 @@
+.header__inputDiv {
+  display: none;
+}
+
+.header__inputDiv--mobileOnly {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .header__inputDiv {
+    display: block;
+    margin-left: 2rem;
+    position: relative;
+    order: 1;
+    width: 270px;
+  }
+
+  .header__inputDiv--mobileOnly {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__inputDiv {
+    width: 400px;
+  }
+}

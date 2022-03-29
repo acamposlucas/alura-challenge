@@ -23,9 +23,12 @@
   .header__btn--search-svg {
     background-color: transparent;
     border: none;
+    cursor: pointer;
     position: absolute;
-    margin-right: 0.5rem;
     z-index: 1;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 

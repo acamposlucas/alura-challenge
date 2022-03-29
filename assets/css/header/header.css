@@ -2,12 +2,14 @@
 @import url(./header__input.css);
 @import url(./header__label.css);
 @import url(./header__logo.css);
+@import url(./header__wrapper.css);
+@import url(./header__inputDiv.css);
 
 .header {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {

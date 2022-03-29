@@ -23,24 +23,35 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
-        <img
-          src="assets/img/logo.svg"
-          alt="Logo da AluraGeek"
-          class="header__logo"
-        />
-      </a>
+      <div class="header__wrapper">
+        <a href="index.html">
+          <img
+            src="assets/img/logo.svg"
+            alt="Logo da AluraGeek"
+            class="header__logo"
+          />
+        </a>
+        <div class="header__inputDiv">
+          <label for="search" class="header__label"></label>
+          <input
+            type="text"
+            class="header__input"
+            placeholder="O que você deseja encontrar?"
+          />
+          <button class="header__btn--search-svg"></button>
+        </div>
+      </div>
       <a href="login.html" class="botao--branco header__button">Login</a>
-      <label for="search" class="header__label">
+
+      <div class="header__inputDiv--mobileOnly">
+        <label for="search" class="header__label"></label>
         <input
-          type="search"
-          name="search"
-          id="search"
+          type="text"
           class="header__input"
           placeholder="O que você deseja encontrar?"
         />
         <button class="header__btn--search-svg"></button>
-      </label>
+      </div>
     </header>
     <main style="background-color: #f5f5f5">
       <section class="banner">

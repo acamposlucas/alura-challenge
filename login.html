@@ -19,31 +19,42 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
-        <img
-          src="assets/img/logo.svg"
-          alt="Logo da AluraGeek"
-          class="header__logo"
-        />
-      </a>
+      <div class="header__wrapper">
+        <a href="index.html">
+          <img
+            src="assets/img/logo.svg"
+            alt="Logo da AluraGeek"
+            class="header__logo"
+          />
+        </a>
+        <div class="header__inputDiv">
+          <label for="search" class="header__label"></label>
+          <input
+            type="text"
+            class="header__input"
+            placeholder="O que você deseja encontrar?"
+          />
+          <button class="header__btn--search-svg"></button>
+        </div>
+      </div>
       <a href="login.html" class="botao--branco header__button">Login</a>
-      <label for="search" class="header__label">
+
+      <div class="header__inputDiv--mobileOnly">
+        <label for="search" class="header__label"></label>
         <input
-          type="search"
-          name="search"
-          id="search"
+          type="text"
           class="header__input"
           placeholder="O que você deseja encontrar?"
         />
         <button class="header__btn--search-svg"></button>
-      </label>
+      </div>
     </header>
-
     <main>
       <section class="login">
         <form action="#" class="login__form">
           <fieldset class="login__fieldset">
             <legend class="login__legend">Iniciar Sessão</legend>
+            <label for="email"></label>
             <input
               type="email"
               name="email"
@@ -51,6 +62,7 @@
               placeholder="Escreva seu email"
               class="login__input login__input--email"
             />
+            <label for="password"></label>
             <input
               type="password"
               name="password"
