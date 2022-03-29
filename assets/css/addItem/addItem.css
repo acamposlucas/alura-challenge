@@ -1,0 +1,21 @@
+@import url(./_addItem__form.css);
+@import url(./_addItem__imageInput.css);
+@import url(./_addItem__input.css);
+@import url(./_addItem__wrapper.css);
+
+.addItem {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.addItem__span-hdn {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .addItem__span-hdn {
+    display: inline-block;
+  }
+}

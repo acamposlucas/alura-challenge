@@ -1,0 +1,40 @@
+.addItem__imageInput {
+  align-items: center;
+  background-color: #fff;
+  border: 1px dashed #c8c8c8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 130px;
+  width: 100%;
+}
+
+.addItem__icon--plus {
+  background-image: url(../../img/add.svg);
+  display: inline-block;
+  height: 32px;
+  margin-bottom: 1rem;
+  width: 32px;
+}
+
+.imageInput__label {
+  font-size: 0.875rem;
+  color: var(--cinza-claro);
+}
+
+.addItem__inputDrag {
+  display: none;
+}
+
+.addItem__newItemInput {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .addItem__imageInput {
+    width: 250px;
+  }
+  .addItem__newItemInput {
+    display: block;
+  }
+}

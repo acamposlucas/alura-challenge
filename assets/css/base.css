@@ -56,6 +56,33 @@ textarea:focus {
   padding: 1rem;
 }
 
+.title {
+  font-weight: 600;
+  font-size: var(--fonte-titulo-24);
+}
+
+.input {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 0px 0px var(--cinza-shadow);
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  z-index: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     padding: 4rem 9.375rem 0 9.375rem;

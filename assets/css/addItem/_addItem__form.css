@@ -1,0 +1,10 @@
+.addItem__form {
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .addItem__form {
+    width: 100%;
+  }
+}
