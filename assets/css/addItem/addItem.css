@@ -5,6 +5,7 @@
 
 .addItem {
   align-items: center;
+  background-color: var(--clr-gray);
   justify-content: center;
   display: flex;
   gap: 1rem;

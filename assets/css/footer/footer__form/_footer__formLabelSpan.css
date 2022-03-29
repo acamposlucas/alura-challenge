@@ -3,7 +3,7 @@
   z-index: 1;
   cursor: text;
   pointer-events: none;
-  color: var(--cinza-claro);
+  color: var(--clr-black-50);
   padding-top: 0.5rem;
   padding-left: 1rem;
 }

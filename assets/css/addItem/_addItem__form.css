@@ -8,3 +8,9 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .addItem__form {
+    width: 35rem;
+  }
+}

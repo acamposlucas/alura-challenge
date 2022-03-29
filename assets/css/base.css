@@ -1,23 +1,21 @@
 @import url(./header/header.css);
-@import url(../components/botao.css);
 @import url(../css/gallery/_gallery.css);
 @import url(./footer/footer.css);
+@import url(./button/button.css);
 
 :root {
-  --azul-20: #d4e4fa;
-  --azul-80: #5595e9;
-  --azul: #2a7ae4;
-  --azul-bg: #eaf2fd;
-  --cinza-shadow: #c8c8c8;
-  --cinza-claro: #a2a2a2;
-  --cinza-input: #f5f5f5;
-  --branco: #fff;
-  --preto: #464646;
+  --clr-black: #464646;
+  --clr-black-50: #a2a2a2;
+  --clr-blue-20: #d4e4fa;
+  --clr-blue-80: #5595e9;
+  --clr-blue: #2a7ae4;
+  --clr-blue-bg: #eaf2fd;
+  --clr-gray-shadow: #c8c8c8;
+  --clr-gray: #f5f5f5;
+  --clr-white: #fff;
 
   --fonte-titulo-24: 1.5rem;
   --fonte-pequena-14: 0.75rem;
-
-  --bg-clr-cinza: #f5f5f5;
 }
 
 body {
